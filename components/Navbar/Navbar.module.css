@@ -45,26 +45,25 @@
 }
 
 @media (max-width: 834px) {
-    .navItem{
-        margin:20px;
-    }
-     }
+  .navItem {
+    margin: 20px;
+  }
+}
 
 @media (max-width: 414px) {
-    .navbar {
-        flex-direction: column;
-        justify-content: center;
-    }
-        .nav {
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
-    }
-    .btn {
-        padding:15px 90px
-    }
-    .btnOutline {
-        padding:15px 90px
-    }
+  .navbar {
+    flex-direction: column;
+    justify-content: center;
   }
-  
+  .nav {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .btn {
+    padding: 15px 90px;
+  }
+  .btnOutline {
+    padding: 15px 90px;
+  }
+}
