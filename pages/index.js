@@ -11,7 +11,9 @@ export default function Home() {
     <section className={styles.banner}>
       <div className={styles.container}>
         <div className={styles.title}>
-          <h1>Développeur Web </h1>
+          <h1>
+            <span className={styles.first}>Développeur</span> <span className={styles.second}>Web</span>
+          </h1>
         </div>
         <div className={styles.content}>
           <p>

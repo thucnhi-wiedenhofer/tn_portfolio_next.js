@@ -2,7 +2,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 30px;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .nav {
@@ -16,12 +21,16 @@
   text-transform: uppercase;
 }
 
-.active {
+.link {
+  color: #ffff;
+}
+.link:hover, .link:active {
   color: #9bffc9;
 }
 
 .btn {
   background-color: #ffff;
+  font-weight: 550;
   color: #242943;
   padding: 10px 30px;
 }
@@ -51,19 +60,14 @@
 }
 
 @media (max-width: 414px) {
-  .navbar {
-    flex-direction: column;
-    justify-content: center;
-  }
+  .header {
+    position: relative;
+    }
+    .navbar {
+      justify-content: center;
+    }
+    
   .nav {
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-  }
-  .btn {
-    padding: 15px 90px;
-  }
-  .btnOutline {
-    padding: 15px 90px;
+    display: none;
   }
 }

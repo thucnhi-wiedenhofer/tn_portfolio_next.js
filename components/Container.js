@@ -1,6 +1,7 @@
 import React from 'react'
 import Head from 'next/head'
-import Navbar from './Navbar/Navbar'
+import Header from './Header/Header'
+import Footer from './Footer/Footer'
 
 export default function Container({ children }) {
   return (
@@ -26,8 +27,9 @@ export default function Container({ children }) {
         />
         <title>Thuc Nhi Wiedenhofer Portfolio</title>
       </Head>
-      <Navbar/>
+      <Header/>
       <main>{children}</main>
+      <Footer/>
     </>
   )
 }
