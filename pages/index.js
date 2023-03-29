@@ -22,7 +22,7 @@ export default function Home() {
           </p>
           <ul>
             <li className={styles.navItem}>
-              <Link className={styles.btnSlide} href="/contact">
+              <Link className={styles.btnSlide} href="/projets">
                 <span>
                   Voir mon portfolio
                   <Image src={arrow} alt="flèche" className={styles.arrow} />
