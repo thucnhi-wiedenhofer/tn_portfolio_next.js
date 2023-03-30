@@ -2,17 +2,17 @@
   font-size: 100px;
   font-weight: 800;
   line-height: 1;
-  letter-spacing: -3px; 
-  margin-top: 15%; 
+  letter-spacing: -3px;
+  margin-top: 15%;
 }
 .first {
-  background: linear-gradient(90deg,#fabd12, #9bffc9);
+  background: linear-gradient(90deg, #fabd12, #9bffc9);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .second {
-  background: linear-gradient(90deg,#9bffc9, #fabd12);
+  background: linear-gradient(90deg, #9bffc9, #fabd12);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -62,7 +62,7 @@
   align-items: center;
   position: relative;
   z-index: 2;
-  color:#ffffff;
+  color: #ffffff;
   transition: color 0.3s ease-in-out;
 }
 
@@ -71,12 +71,12 @@
   position: absolute;
   background-color: transparent;
   border: 2px solid #ffffff;
-  color: #ffff;  
+  color: #ffff;
   width: 100%;
   height: 100%;
   top: 0;
   left: 0;
-  transition: transform 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .btnSlide:hover::after {
@@ -94,7 +94,6 @@
   transition: background-color 1s ease-in-out;
   color: #242943;
 }
-
 
 @media (max-width: 1024px) {
   .banner h1 {

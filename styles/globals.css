@@ -24,3 +24,19 @@ a {
 li {
   list-style: none;
 }
+
+.half {
+  width:50%;
+}
+
+.row-between {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.row-start {
+  display: flex;
+  flex-direction: row;
+  justify-content:flex-start;
+}

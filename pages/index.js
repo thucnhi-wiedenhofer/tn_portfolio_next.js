@@ -4,7 +4,6 @@ import Image from "next/image";
 import Link from "next/link";
 import styles from "@/styles/Home.module.css";
 import arrow from "./../public/images/icons/arrow-icon.svg";
-import arrowGreen from "./../public/images/icons/arrow-icon-green.svg";
 
 export default function Home() {
   return (
