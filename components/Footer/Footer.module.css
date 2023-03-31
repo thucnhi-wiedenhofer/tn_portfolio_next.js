@@ -93,6 +93,9 @@
 }
 
 @media (max-width: 414px) {
+  .container {
+    margin: 25% auto;
+  }
   .navbar {
     flex-direction: column;
     justify-content: center;

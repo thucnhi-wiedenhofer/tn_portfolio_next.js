@@ -12,6 +12,7 @@
   top: 0;
   width: 100%;
   z-index: 1000;
+  background-color: #2a2f4a;
 }
 
 .nav {
@@ -65,13 +66,9 @@
 }
 
 @media (max-width: 414px) {
-  .header {
-    position: relative;
-  }
   .navbar {
     justify-content: center;
   }
-
   .nav {
     display: none;
   }

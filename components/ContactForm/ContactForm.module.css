@@ -1,5 +1,10 @@
 .form {
-  width:60%;
+  width: 60%;
+}
+.fields {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .formGroup {
@@ -7,10 +12,10 @@
 }
 
 .label {
-display: block;
-text-transform: uppercase;
-font-size: 12px;
-margin: 10px 0px;
+  display: block;
+  text-transform: uppercase;
+  font-size: 12px;
+  margin: 10px 0px;
 }
 
 .input {
@@ -41,6 +46,11 @@ margin: 10px 0px;
   resize: none;
 }
 
+.rgpd {
+  display: flex;
+  flex: row;
+}
+
 .checkbox {
   margin-right: 10px;
 }
@@ -48,8 +58,9 @@ margin: 10px 0px;
 .btnSlide {
   color: #ffff;
   background-color: transparent;
-  border: 2px solid #ffff;
-  padding: 10px 20px;
+  border: 0;
+  box-shadow: inset 0 0 0 2px #9bffc9;
+  padding: 10px 30px;
   text-transform: uppercase;
   position: relative;
   overflow: hidden;
@@ -82,11 +93,34 @@ margin: 10px 0px;
 }
 
 .btnSlide:hover span {
-  color: #ffff;
+  color: #9bffc9;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1279px) {
+  .form {
+    width: 80%;
+    margin-top: 8%;
+    margin-bottom: 4%;
+  }
+}
+@media (max-width: 767px) {
   .form:nth-child(1) {
-    order:2;
+    order: 2;
+  }
+  .form {
+    width: 100%;
+    margin: 50px 0px;
+  }
+  .fields {
+    flex-direction: column;
+  }
+  .formGroup {
+    width: 100%;
+  }
+  .rgpd {
+    align-items: flex-start;
+  }
+  .checkbox {
+    margin-top: 15px;
   }
 }

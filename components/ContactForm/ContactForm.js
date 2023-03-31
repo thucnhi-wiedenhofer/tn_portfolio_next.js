@@ -49,7 +49,7 @@ export default function ContactForm() {
   };
   return (
     <form className={styles.form} onSubmit={handleSubmit}>
-      <div className="row-between">
+      <div className={styles.fields}>
         <div className={styles.formGroup}>
           <label htmlFor="name" className={styles.label}>
             Nom
@@ -95,7 +95,7 @@ export default function ContactForm() {
         ></textarea>
       </div>
 
-      <div className="row-start">
+      <div className={styles.rgpd}>
         <input
           className={styles.checkbox}
           type="checkbox"
