@@ -1,4 +1,6 @@
-
+.form {
+  width:60%;
+}
 
 .formGroup {
   width: calc(50% - 0.75em);
@@ -81,4 +83,10 @@ margin: 10px 0px;
 
 .btnSlide:hover span {
   color: #ffff;
+}
+
+@media (max-width: 1024px) {
+  .form:nth-child(1) {
+    order:2;
+  }
 }

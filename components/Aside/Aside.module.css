@@ -1,0 +1,30 @@
+.aside {
+  width: 40%;  
+  padding: 0 9%;
+}
+
+.details {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 20px;
+}
+.icon {
+  border-bottom: none;
+  border-radius: 100%;
+  background-color: #ffffff;
+  width: 32px;
+  height: 32px;
+  text-align: center;
+  display: inline-block;
+  line-height: 40px;
+  margin: 8px;
+  cursor: pointer;
+}
+
+@media (max-width: 1024px) {
+    .aside:nth-child(2) {
+      order:1;
+    }
+  }
+  

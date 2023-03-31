@@ -1,13 +1,17 @@
+.header {
+  position: relative;
+  height: 50px;
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-.header {
+  overflow: hidden;
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 1000;
 }
 
 .nav {
@@ -24,7 +28,8 @@
 .link {
   color: #ffff;
 }
-.link:hover, .link:active {
+.link:hover,
+.link:active {
   color: #9bffc9;
 }
 
@@ -62,11 +67,11 @@
 @media (max-width: 414px) {
   .header {
     position: relative;
-    }
-    .navbar {
-      justify-content: center;
-    }
-    
+  }
+  .navbar {
+    justify-content: center;
+  }
+
   .nav {
     display: none;
   }

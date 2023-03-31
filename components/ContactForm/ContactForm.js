@@ -48,7 +48,7 @@ export default function ContactForm() {
     });
   };
   return (
-    <form className="half" onSubmit={handleSubmit}>
+    <form className={styles.form} onSubmit={handleSubmit}>
       <div className="row-between">
         <div className={styles.formGroup}>
           <label htmlFor="name" className={styles.label}>
