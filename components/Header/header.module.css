@@ -12,7 +12,8 @@
   top: 0;
   width: 100%;
   z-index: 1000;
-  background-color: #2a2f4a;
+  background-color: #d86d7b;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
 }
 
 .nav {
@@ -38,7 +39,7 @@
   background-color: #ffff;
   font-weight: 550;
   color: #242943;
-  padding: 10px 30px;
+  padding: 10px 30px; 
 }
 .btn:hover,
 .btn:active {
@@ -65,9 +66,11 @@
   }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 415px) {
   .navbar {
     justify-content: center;
+    position:relative;
+    background-color: transparent;
   }
   .nav {
     display: none;

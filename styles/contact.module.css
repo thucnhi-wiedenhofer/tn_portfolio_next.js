@@ -20,17 +20,19 @@
   font-weight: 800;
   line-height: 1;
   letter-spacing: -3px;
-  margin-top: 15%;
-  padding-bottom: 5%;
-  border-bottom-style: solid;
+  margin-top: 20%;
+  margin-bottom: 0;
+  padding-bottom: 15%;
+   background:
+  linear-gradient(
+    to right, 
+     #fabd12, #9bffc9
+  )
+  left   
+  no-repeat; 
+background-size:100% 3px ;
 }
 
-.second {
-  background: linear-gradient(90deg, #9bffc9, #fabd12);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
 
 .intro {
   text-transform: uppercase;
