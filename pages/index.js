@@ -56,6 +56,25 @@ export default function Home() {
               </ul>
             </div>
           </article>
+          <article className={styles.services}>
+            <div className={styles.imgFluid}>
+              <Image src={project_1} alt="site web responsives" width="1920" height="1080" layout="responsive" />
+            </div>
+
+            <div className={styles.description}>
+              <div className={styles.header}>
+                <h2>Création de sites web responsives</h2>
+              </div>
+              <p>Je crée des sites web dynamiques compatibles à tous support: PC, tablette et mobile.<br/>
+              Avec une intégration repectueuse des standard du web pour un référencement optimal.
+              </p>
+              <ul className={styles.action}>
+                <li>
+                  <Link className={styles.btnOutline} href="/projets">En savoir plus</Link>
+                </li>
+              </ul>
+            </div>
+          </article>
         </div>
       </section>
     </>

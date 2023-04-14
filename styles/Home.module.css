@@ -5,7 +5,7 @@
   font-weight: 800;
   line-height: 1;
   letter-spacing: -3px;
-  margin-top: 15%;
+  margin-top: 6%;
 }
 .first {
   background: linear-gradient(90deg, #fabd12, #9bffc9);
@@ -21,7 +21,7 @@
 }
 
 .banner {
-  min-height: 65vh;
+  min-height: 50vh;
   max-width: 1100px;
   width: calc(100% - 10%);
   margin: 10% auto;
@@ -100,17 +100,26 @@
 
 @media (max-width: 1024px) {
   .banner h1 {
-    margin-top: 20%;
+    margin-top: 15%;
     font-size: 60px;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 834px) {
+  .banner {
+    min-height: 35vh;
+  }
   .content {
     font-size: 13px;
+  }
+  .btnSlide {
+    margin: 0px 10px 0px 30px;
   }
 }
 
 @media (max-width: 415px) {
+  .banner {
+    min-height: 60vh;
+  }
   .banner h1 {
     margin-top: 30%;
     font-size: 30px;
@@ -132,6 +141,9 @@
 }
 
 @media (max-width: 320px) {
+  .banner {
+    min-height: 70vh;
+  }
   .btnSlide {
     margin: 30px 30px 10px 0px;
   }
@@ -141,31 +153,43 @@
 
 
 /*  CSS  section Services */
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
 .services {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: flex-start;  
+  border-top:solid 1px #ffffff34;
+}
+.services:nth-child(2n) {
+  flex-direction: row-reverse;
 }
 
-.imgFluid {
-  width:60%;
+.imgFluid {  
+  width: 630px;
+  height: auto;  
+}
+.imgFluid img {
+  width: 100%;
+  height: auto;
 }
 
 .description {
-  width:40%;  
-  padding-left: 10%;
-  padding-right: 3%;
+  padding: 3%;
 }
 
 .header {
-  border-bottom-style: solid;
-width: max-content;
+border-bottom-style: solid;
 word-wrap: break-word;
+padding-right:10px;
 margin-top: 30px;
 }
 
 .description p {
-  font-size: 16px;
   margin: 30px 0;
 }
 
@@ -184,17 +208,18 @@ margin-top: 30px;
   color: #9bffc9;
 }
 
-@media (max-width: 835px) {
+@media (max-width: 834px) {
   .services {
-    flex-direction: column;
+    flex-direction: column;    
+  }
+  .services:nth-child(2n) {
+    flex-direction: row;
   }
   .imgFluid {
     width:100%;
   }  
   .description {
-    width:100%;  
-    padding-left: 10%;
-    padding-right: 3%;
+    width:100%; 
   }
 }
 /*  CSS  Fin section Services */
