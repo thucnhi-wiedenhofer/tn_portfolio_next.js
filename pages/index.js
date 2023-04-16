@@ -39,7 +39,7 @@ export default function Home() {
         <div className={styles.container}>
           <article className={styles.services}>
             <div className={styles.imgFluid}>
-              <Image src={project_1} alt="site web responsives" width="1920" height="1080" layout="responsive" />
+              <Image src={project_1} alt="site web responsives" width="1920" height="1080"  />
             </div>
 
             <div className={styles.description}>
@@ -58,7 +58,7 @@ export default function Home() {
           </article>
           <article className={styles.services}>
             <div className={styles.imgFluid}>
-              <Image src={project_1} alt="site web responsives" width="1920" height="1080" layout="responsive" />
+              <Image src={project_1} alt="site web responsives" width="1920" height="1080"  />
             </div>
 
             <div className={styles.description}>
