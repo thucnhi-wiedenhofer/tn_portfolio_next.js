@@ -17,14 +17,14 @@ export default function Contact() {
           </p>
         </div>
       </section>
-      <section id="contact">
-        <div className={styles.container}>
+      <main id="contact">
+        <section className={styles.container}>
           <div className={styles.contact}>
             <ContactForm />
             <Aside />
           </div>
-        </div>
-      </section>
+        </section>
+      </main>
     </>
   );
 }

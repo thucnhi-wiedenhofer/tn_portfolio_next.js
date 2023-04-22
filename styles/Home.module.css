@@ -150,33 +150,34 @@
 }
 /*  CSS  Fin section banner */
 
-
-
 /*  CSS  section Services */
 
 .services {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;  
-  border-top:solid 1px #ffffff50;
-  border-right:solid 1px #ffffff50;
+  justify-content: space-between;
+  border-top: solid 1px #ffffff50;
+  border-right: solid 1px #ffffff50;
 }
 .services:nth-child(2n) {
   flex-direction: row-reverse;
   border-bottom: solid 1px #ffffff50;
-  border-left:solid 1px #ffffff50;
+  border-left: solid 1px #ffffff50;
 }
 
-.imgFluid {    
-  height: 380px;
+.imgFluid {
+  height: 400px;
   position: relative;
-  overflow: hidden; 
+  overflow: hidden;
+  flex-grow: 1;
 }
 
 .imgFluid img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: top;
+  transition: transform 330ms ease-in-out;
 }
 
 .imgFluid img:hover {
@@ -184,14 +185,15 @@
 }
 
 .description {
-  padding: 3%;
+  padding: 5%;
+  width: 40%;
 }
 
 .header {
-border-bottom-style: solid;
-word-wrap: break-word;
-padding-right:10px;
-margin-top: 30px;
+  border-bottom-style: solid;
+  word-wrap: break-word;
+  padding-right: 10px;
+  margin-top: 30px;
 }
 
 .description p {
@@ -214,35 +216,41 @@ margin-top: 30px;
 }
 
 @media (min-width: 1441px) {
-  .container {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  }   
+  .imgFluid {
+    height: 460px;
+  }
+  .imgFluid img {
+    object-position: 50% 30%;
+  }
+}
+@media (max-width: 1024px) {
+  .description {
+    width: 50%;
+  }
 }
 
 @media (max-width: 834px) {
-    .services {
-    flex-direction: column;  
-    width:100%;  
+  .services {
+    flex-direction: column;
+    width: 100%;
   }
   .services:nth-child(2n) {
     flex-direction: column;
   }
   .imgFluid {
-    max-width:100%;
+    max-width: 100%;
     height: 420px;
-  }   
+  }
   .description {
-    width:100%;
-    margin-bottom: 4%; 
+    width: 100%;
+    margin-bottom: 4%;
   }
 }
 
 @media (max-width: 414px) {
   .imgFluid {
     height: 230px;
-  } 
+  }
   .description {
     margin-bottom: 10%;
   }

@@ -2,14 +2,15 @@ import React from "react";
 import Gallery from "@/components/Gallery/Gallery";
 import styles from "@/styles/projets.module.css";
 
-
 export default function Projets() {
   return (
-    <section id="projets">
-      <div className={styles.container}>
+    <>
+      <section className={styles.banner}>
         <h1 className={styles.title}>Projets</h1>
+      </section>
+      <main id="projects">
         <Gallery />
-      </div>
-    </section>
+      </main>      
+    </>
   );
 }

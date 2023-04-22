@@ -5,6 +5,7 @@ import Link from "next/link";
 import styles from "@/styles/Home.module.css";
 import arrow from "./../public/images/icons/arrow-icon.svg";
 import project_1 from "./../public/images/services_1.png";
+import project_2 from "./../public/images/kasa_services.png";
 
 export default function Home() {
   return (
@@ -35,48 +36,68 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section id="services">
-        <div className={styles.container}>
+      <main id="services">
+        <section className={styles.container}>
           <article className={styles.services}>
             <div className={styles.imgFluid}>
-              <Image src={project_1} alt="site web responsives" width="1920" height="1080"  />
+              <Image
+                src={project_1}
+                alt="site web responsives"
+                width="1920"
+                height="1080"
+              />
             </div>
 
             <div className={styles.description}>
               <div className={styles.header}>
                 <h2>Création de sites web responsives</h2>
               </div>
-              <p>Je crée des sites web dynamiques compatibles à tous support: PC, tablette et mobile.<br/>
-              Avec une intégration repectueuse des standard du web pour un référencement optimal.
+              <p>
+                Je crée des sites web dynamiques compatibles à tous support: PC,
+                tablette et mobile.
+                <br />
+                Avec une intégration repectueuse des standard du web pour un
+                référencement optimal.
               </p>
               <ul className={styles.action}>
                 <li>
-                  <Link className={styles.btnOutline} href="/projets">En savoir plus</Link>
+                  <Link className={styles.btnOutline} href="/projets">
+                    En savoir plus
+                  </Link>
                 </li>
               </ul>
             </div>
           </article>
           <article className={styles.services}>
             <div className={styles.imgFluid}>
-              <Image src={project_1} alt="site web responsives" width="1920" height="1080"  />
+              <Image
+                src={project_2}
+                alt="site web responsives"
+                width="1920"
+                height="1144"
+              />
             </div>
 
             <div className={styles.description}>
               <div className={styles.header}>
-                <h2>Création de sites web responsives</h2>
+                <h2>Développement d'application spécialité front-end</h2>
               </div>
-              <p>Je crée des sites web dynamiques compatibles à tous support: PC, tablette et mobile.<br/>
-              Avec une intégration repectueuse des standard du web pour un référencement optimal.
+              <p>
+                Je conçois et modélise des applications avec Javascript et
+                React.<br/> Cela comprend l'implémentation de mock-up, l'intégration de maquette,
+                les tests et les débuggages.
               </p>
               <ul className={styles.action}>
                 <li>
-                  <Link className={styles.btnOutline} href="/projets">En savoir plus</Link>
+                  <Link className={styles.btnOutline} href="/projets">
+                    En savoir plus
+                  </Link>
                 </li>
               </ul>
             </div>
           </article>
-        </div>
-      </section>
+        </section>
+      </main>
     </>
   );
 }
