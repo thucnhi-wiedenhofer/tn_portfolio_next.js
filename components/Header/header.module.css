@@ -34,6 +34,7 @@
   font-weight: 550;
   color: #242943;
   padding: 10px 30px; 
+  border-radius: 30px;
 }
 .btn:hover,
 .btn:active {
@@ -43,14 +44,15 @@
 .btnOutline {
   background-color: transparent;
   border: 0px;
-  box-shadow: inset 0 0 0 2px #ffffff;
+  border-radius: 30px;
+  box-shadow: inset 0 0 0 3px #ffffff;
   color: #ffff;
-  padding: 10px 30px;
+  padding: 14px 30px;
 }
 
 .btnOutline:hover,
 .btnOutline:active {
-  box-shadow: inset 0 0 0 2px #9bffc9;
+  box-shadow: inset 0 0 0 3px #9bffc9;
   color: #9bffc9;
 }
 

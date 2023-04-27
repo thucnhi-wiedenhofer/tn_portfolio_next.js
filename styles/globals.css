@@ -8,10 +8,10 @@
 
 body {
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 550;
   line-height: 25px;
   color: #ffff;
-  background: linear-gradient(290deg, #726193 20%, #e37b7c 60%, #ffe4b4);
+  background: linear-gradient(300deg, #726193 20%, #e37b7c 70%, #ffe4b4);
   font-family: "Inter", sans-serif;
 }
 

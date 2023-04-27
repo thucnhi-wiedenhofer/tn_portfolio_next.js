@@ -5,7 +5,7 @@ import Link from "next/link";
 import styles from "@/styles/Home.module.css";
 import arrow from "./../public/images/icons/arrow-icon.svg";
 import project_1 from "./../public/images/services_1.png";
-import project_2 from "./../public/images/kasa_services.png";
+import project_2 from "./../public/images/kasa_app.png";
 
 export default function Home() {
   return (
@@ -72,9 +72,9 @@ export default function Home() {
             <div className={styles.imgFluid}>
               <Image
                 src={project_2}
-                alt="site web responsives"
+                alt="mobile app"
                 width="1920"
-                height="1144"
+                height="1080"
               />
             </div>
 

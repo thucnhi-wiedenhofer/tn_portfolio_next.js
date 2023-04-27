@@ -10,7 +10,7 @@ export default function Contact() {
         <div className={styles.container}>
         <h1 className={styles.title}>Contactez-moi</h1>
           <p className={styles.intro}>
-            Vous avez un projet? <br /> Je suis à votre disposition pour toutes
+            Vous avez un projet ? <br /> Je suis à votre disposition pour toutes
             demandes de devis ou de renseignements complémentaires sur mes
             services. <br />
             Je serai ravie de pouvoir collaborer avec vous.
