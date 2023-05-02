@@ -59,7 +59,7 @@ background-size:100% 3px ;
     letter-spacing: -1px;
   }
   .intro {
-    font-size: 12px;
+    font-size: 14px;
   }
 }
 
@@ -70,7 +70,5 @@ background-size:100% 3px ;
   .title {
     font-size: 30px;
   }
-  .intro {
-    font-size: 12px;
-  }
+  
 }

@@ -7,7 +7,7 @@ import github from "./../../public/images/icons/github-icon.svg";
 
 export default function Footer() {
   return (
-    <footter>
+    <footer className={styles.footer}>
       <div className={styles.container}>
         <nav className={styles.navbar}>
           <ul className={styles.nav}>
@@ -66,6 +66,6 @@ export default function Footer() {
           </ul>
         </nav>
       </div>
-    </footter>
+    </footer>
   );
 }
