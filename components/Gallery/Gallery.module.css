@@ -51,6 +51,8 @@
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 .smallCard:hover .title,
+.smallCard:hover .overlay,
+.bigCard:hover .tittle,
 .bigCard:hover .overlay {
   opacity:0.8;
   transition: all 0.3s ease-in-out;
@@ -61,6 +63,8 @@
   display: flex;
   flex-direction: column;
   text-align: center;
+  justify-content: space-around;
+  height: 100%;
 }
 
 .title {
