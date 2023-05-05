@@ -15,6 +15,13 @@ body {
   font-family: "Inter", sans-serif;
 }
 
+h2 {
+  text-transform: capitalize;
+  font-size: 34px;
+  font-weight: 800;
+  line-height: 1;
+  letter-spacing: -1px;
+}
 
 a {
   color: inherit;

@@ -20,7 +20,7 @@ export default function Gallery() {
               <h2 className={styles.title}>Titre</h2>
               <ul className={styles.action}>
                 <li>
-                  <Link className={styles.btnOutline} href="">
+                  <Link className={styles.btnOutline} href="/projets/projet">
                     Voir
                   </Link>
                 </li>
@@ -35,7 +35,7 @@ export default function Gallery() {
               <h2 className={styles.title}>Titre</h2>
               <ul className={styles.action}>
                 <li>
-                  <Link className={styles.btnOutline} href="">
+                  <Link className={styles.btnOutline} href="/projets/projet">
                     Voir
                   </Link>
                 </li>
@@ -53,7 +53,7 @@ export default function Gallery() {
               <h2 className={styles.title}>Titre</h2>
               <ul className={styles.action}>
                 <li>
-                  <Link className={styles.btnOutline} href="">
+                  <Link className={styles.btnOutline} href="/projets/projet">
                     Voir
                   </Link>
                 </li>
@@ -68,7 +68,7 @@ export default function Gallery() {
               <h2 className={styles.title}>Titre</h2>
               <ul className={styles.action}>
                 <li>
-                  <Link className={styles.btnOutline} href="">
+                  <Link className={styles.btnOutline} href="/projets/projet">
                     Voir
                   </Link>
                 </li>
@@ -85,7 +85,7 @@ export default function Gallery() {
               <h2 className={styles.title}>Titre</h2>
               <ul className={styles.action}>
                 <li>
-                  <Link className={styles.btnOutline} href="">
+                  <Link className={styles.btnOutline} href="/projets/projet">
                     Voir
                   </Link>
                 </li>
@@ -100,7 +100,7 @@ export default function Gallery() {
               <h2 className={styles.title}>Titre</h2>
               <ul className={styles.action}>
                 <li>
-                  <Link className={styles.btnOutline} href="">
+                  <Link className={styles.btnOutline} href="/projets/projet">
                     Voir
                   </Link>
                 </li>

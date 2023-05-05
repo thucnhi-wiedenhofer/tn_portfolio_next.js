@@ -22,7 +22,7 @@ export default function projet() {
                 référencement optimal.</p>
                 <ul className={styles.action}>
                 <li>
-                  <Link className={styles.btnOutline} href="">
+                  <Link className={styles.btnOutline} href="https://thuc-nhi-wiedenhofer.students-laplateforme.io/boutique/" target="_blank">
                     Visiter le site
                   </Link>
                 </li>

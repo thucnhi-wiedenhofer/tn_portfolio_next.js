@@ -2,7 +2,7 @@ import React from "react";
 import Gallery from "@/components/Gallery/Gallery";
 import styles from "@/styles/projets.module.css";
 
-export default function Projets() {
+export default function index() {
   return (
     <>
       <section className={styles.banner}>

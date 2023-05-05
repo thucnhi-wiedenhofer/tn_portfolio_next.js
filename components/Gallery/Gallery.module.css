@@ -72,7 +72,6 @@
   word-wrap: break-word;
   margin: 3% 0%;
   transition:all 0.3s ease-in-out;
-  text-transform: uppercase;
 }
 
 .overlay {

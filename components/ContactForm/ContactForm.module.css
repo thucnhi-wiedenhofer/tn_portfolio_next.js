@@ -15,7 +15,7 @@
   display: block;
   text-transform: uppercase;
   font-size: 12px;
-  margin: 10px 4px 0px;
+  margin: 15px 0 2px 0px;
 }
 
 .input {
@@ -48,11 +48,12 @@
 
 .rgpd {
   display: flex;
-  flex: row;
+  align-items: center;
 }
 
 .checkbox {
   margin-right: 10px;
+  margin-top: 12px;
 }
 
 .btnSlide {
@@ -61,7 +62,7 @@
   border: 0;
   border-radius: 30px;
   box-shadow: inset 0 0 0 3px #9bffc9;
-  padding: 10px 30px;
+  padding: 14px 30px;
   text-transform: uppercase;
   position: relative;
   overflow: hidden;
@@ -122,6 +123,12 @@
     align-items: flex-start;
   }
   .checkbox {
-    margin-top: 15px;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 414px) {
+  .btnSlide {
+    font-size: 14px;
   }
 }

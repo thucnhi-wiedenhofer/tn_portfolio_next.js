@@ -8,7 +8,9 @@ slide horizontal avec 3 images:
   .sliderContainer {
   max-width: 700px;
   margin: 3% auto;
-  overflow: hidden;;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 .sliderContainer .slider {
   animation: slider 12s infinite ease-in-out;
@@ -38,5 +40,11 @@ slide horizontal avec 3 images:
   
   100% {
     transform: translateX(-300%);
+  }
+}
+
+@media (max-width: 414px) {
+  .sliderContainer {
+    border-radius: 0;
   }
 }

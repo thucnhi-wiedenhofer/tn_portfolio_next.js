@@ -26,10 +26,7 @@ export default function Home() {
             <ul>
               <li className={styles.navItem}>
                 <Link className={styles.btnSlide} href="/projets">
-                  <span>
-                    Voir mon portfolio
-                    <Image src={arrow} alt="flèche" className={styles.arrow} />
-                  </span>
+                  <span>Voir mon portfolio</span>
                 </Link>
               </li>
             </ul>
@@ -84,8 +81,9 @@ export default function Home() {
               </div>
               <p>
                 Je conçois et modélise des applications avec Javascript et
-                React.<br/> Cela comprend l'implémentation de mock-up, l'intégration de maquette,
-                les tests et les débuggages.
+                React.
+                <br /> Cela comprend l'implémentation de mock-up, l'intégration
+                de maquette, les tests et les débuggages.
               </p>
               <ul className={styles.action}>
                 <li>
