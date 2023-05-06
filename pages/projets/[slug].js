@@ -6,7 +6,7 @@ import Slider from "@/components/Slider/Slider";
 export default function projet() {
   return (
     <>
-      <main className={styles.container}>
+      <main className={styles.container} data-aos="fade-down">
         <h1 className={styles.title}>Projet Panama</h1>
         <Slider />
         <section className={styles.content}>

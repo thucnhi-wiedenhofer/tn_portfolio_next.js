@@ -12,7 +12,7 @@ import project_4 from "./../../public/images/gallery_fisheye.jpg";
 export default function Gallery() {
   return (
     <section className={styles.container}>
-      <div className={styles.row}>
+      <div className={styles.row} data-aos="fade-down">
         <article className={styles.smallCard}>
           <Image src={project_1} alt="projet 1" width="1920" height="1080" />
           <div className={styles.overlay}>
@@ -44,7 +44,7 @@ export default function Gallery() {
           </div>
         </article>
       </div>
-      <div className={styles.row}>
+      <div className={styles.row} data-aos="fade-down">
         <article className={styles.smallCard}>
           <Image src={project_3} alt="projet 2" width="1907" height="928" />
 
@@ -77,7 +77,7 @@ export default function Gallery() {
           </div>
         </article>
       </div>
-      <div className={styles.row}>
+      <div className={styles.row} data-aos="fade-down">
         <article className={styles.smallCard}>
           <Image src={project_5} alt="projet 5" width="1920" height="1080" />
           <div className={styles.overlay}>

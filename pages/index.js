@@ -10,7 +10,7 @@ import project_2 from "./../public/images/kasa_app.png";
 export default function Home() {
   return (
     <>
-      <section id="banner">
+      <section id="banner"  data-aos="fade-right">
         <div className={styles.banner}>
           <div className={styles.title}>
             <h1>
@@ -34,9 +34,9 @@ export default function Home() {
         </div>
       </section>
       <main id="services">
-        <section className={styles.container}>
+        <section className={styles.container} >
           <article className={styles.services}>
-            <div className={styles.imgFluid}>
+            <div className={styles.imgFluid} data-aos="fade-up">
               <Image
                 src={project_1}
                 alt="site web responsives"
@@ -45,7 +45,7 @@ export default function Home() {
               />
             </div>
 
-            <div className={styles.description}>
+            <div className={styles.description} data-aos="fade-up">
               <div className={styles.header}>
                 <h2>Création de sites web responsives</h2>
               </div>
@@ -66,7 +66,7 @@ export default function Home() {
             </div>
           </article>
           <article className={styles.services}>
-            <div className={styles.imgFluid}>
+            <div className={styles.imgFluid} data-aos="fade-up">
               <Image
                 src={project_2}
                 alt="mobile app"
@@ -75,7 +75,7 @@ export default function Home() {
               />
             </div>
 
-            <div className={styles.description}>
+            <div className={styles.description} data-aos="fade-up">
               <div className={styles.header}>
                 <h2>Développement d'application spécialité front-end</h2>
               </div>

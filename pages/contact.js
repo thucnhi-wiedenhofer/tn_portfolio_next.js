@@ -6,7 +6,7 @@ import Aside from "@/components/Aside/Aside";
 export default function Contact() {
   return (
     <>
-      <section id="banner">
+      <section id="banner" data-aos="fade-right">
         <div className={styles.container}>
         <h1 className={styles.title}>Contactez-moi</h1>
           <p className={styles.intro}>
@@ -18,7 +18,7 @@ export default function Contact() {
         </div>
       </section>
       <main id="contact">
-        <section className={styles.container}>
+        <section className={styles.container} data-aos="fade-down">
           <div className={styles.contact}>
             <ContactForm />
             <Aside />
