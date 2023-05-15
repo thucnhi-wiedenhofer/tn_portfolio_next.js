@@ -8,7 +8,7 @@ import github from "./../../public/images/icons/github-icon.svg";
 export default function Footer() {
   return (
     <footer className={styles.footer}>
-      <div className={styles.container} data-aos="fade-down">
+      <div className={styles.container}>
         <nav className={styles.navbar}>
           <ul className={styles.nav}>
             <li className={styles.navItem}>

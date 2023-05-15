@@ -16,7 +16,7 @@ export default function projet() {
             <span className={styles.badge}>Javascript</span>
           </div>
           <p className={styles.description}>Je crée des sites web dynamiques compatibles à tous support: PC,
-                tablette et mobile.
+                tablette et mobile.  
                 <br />
                 Avec une intégration repectueuse des standard du web pour un
                 référencement optimal.</p>

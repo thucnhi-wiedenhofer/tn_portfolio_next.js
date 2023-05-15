@@ -14,13 +14,13 @@ export default function Home() {
         <div className={styles.banner}>
           <div className={styles.title}>
             <h1>
-              <span className={styles.first}>Développeur</span>{" "}
+              <span className={styles.first}>Développeuse</span>{" "}
               <span className={styles.second}>Web</span>
             </h1>
           </div>
           <div className={styles.content}>
             <p>
-              Développeur d'applications web, <br />
+              Développeuse d'applications web, <br />
               J'aimerais travailler pour votre prochain projet
             </p>
             <ul>
@@ -82,7 +82,7 @@ export default function Home() {
               <p>
                 Je conçois et modélise des applications avec Javascript et
                 React.
-                <br /> Cela comprend l'implémentation de mock-up, l'intégration
+                <br /> Cela comprend la conception des wireframes, l'intégration
                 de maquette, les tests et les débuggages.
               </p>
               <ul className={styles.action}>
