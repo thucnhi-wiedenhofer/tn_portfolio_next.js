@@ -21,10 +21,24 @@
     no-repeat; 
   background-size:100% 3px ;
   }
+  .container {
+    padding:1%;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
   
 @media (max-width: 834px) {
     .container {
       margin: 10% auto;
+      padding: 2%;
+    }
+    .row {
+      flex-direction: column;
+      width: 100%;
     }
     .title {
       font-size: 60px;

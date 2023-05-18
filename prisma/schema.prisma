@@ -1,0 +1,34 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model Projects {
+  id Int @id @default(autoincrement())
+  name String
+  style String
+  image_1 String
+  image_2 String
+  image_3 String 
+  tag_1 String
+  tag_2 String
+  tag_3 String
+  presentation String @db.Text
+  description String @db.Text
+  link String
+}
+
+model ContactPortfolio{
+  id Int @id @default(autoincrement())
+  name String
+  email String
+  message String @db.Text
+  date String
+}

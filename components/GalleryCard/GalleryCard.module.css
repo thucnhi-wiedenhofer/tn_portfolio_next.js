@@ -1,15 +1,3 @@
-.container {
-  padding:1%;
-}
-
-.row {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-.row:nth-child(2n) {
-  flex-direction: row-reverse;
-}
 
 .smallCard {
   width: 35%;
@@ -107,15 +95,7 @@
 }
 
 @media (max-width: 834px) {
-  .container {
-    padding: 2%;
-  }
-  .row {
-    flex-direction: column;
-    width: 100%;
-  }
-
-  .smallCard,
+    .smallCard,
   .bigCard {
     width: 100%;
     height: 380px;
