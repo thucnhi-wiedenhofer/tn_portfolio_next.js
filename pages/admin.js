@@ -25,31 +25,28 @@ export default function Admin() {
 
   return (
     <>
-      <section id="admin" className="mt-5 mb-5">
-        <div className={styles.container}>
-          <form onSubmit={handleSubmit}>
-            <fieldset>
-              <legend className="mb-5">Connexion Administrateur</legend>
-              <div className="form-group">
-                <label htmlFor="password" className="form-label mt-4">
-                  Mot de passe
-                </label>
-                <input
-                  onChange={(e) => {
-                    setAdmin(e.target.value);
-                  }}
-                  type="text"
-                  className="form-control"
-                  name="password"
-                  placeholder="Password"
-                  required="required"
-                />
-              </div>
-              <button type="submit" className="button btn btn-dark mt-5">
-                Se Connecter
-              </button>
-            </fieldset>
-          </form>
+      <section id="admin">
+      <div className={styles.container}>
+        <form onSubmit={handleSubmit} className={styles.form}>
+          <h2 className={styles.title}>Connexion Administrateur</h2>
+          <div className={styles.formGroup}>
+            <label htmlFor="password" className={styles.label}>
+              Mot de passe
+            </label>
+            <input
+              onChange={(e) => {
+                setAdmin(e.target.value);
+              }}
+              type="password"
+              className={styles.input}
+              name="password"
+              required="required"
+            />
+          </div>
+          <button type="submit" className={styles.btnOutline}>
+           Se Connecter
+          </button>
+        </form>
         </div>
       </section>
     </>

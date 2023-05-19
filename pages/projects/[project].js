@@ -7,7 +7,7 @@ export default function project({ project}) {
   return (
     <>
       <main className={styles.container} data-aos="fade-down">
-        <h1 className={styles.title}>Projet {project.name}</h1>
+        <h1 className={styles.title}>{project.name}</h1>
         <Slider />
         <section className={styles.content}>
           <div className={styles.tag}>

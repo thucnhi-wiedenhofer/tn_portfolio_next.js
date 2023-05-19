@@ -1,6 +1,7 @@
 import { PrismaClient } from "@prisma/client";
 import React from "react";
 import { useRouter } from "next/router";
+import styles from "@/styles/dashboard.module.css";
 
 export default function Dashboard({ messages }) {
   const router = useRouter();
@@ -22,25 +23,26 @@ export default function Dashboard({ messages }) {
 
   if (router.query.administred === "ok") {
     return (
-      <section id="dashboard" className="mt-5 mb-5">
-        <div className="container">
-          <h2 className="mb-5">Liste des messages</h2>
+      <section id="dashboard">
+        <h2 className={styles.title}>Liste des messages</h2>
+        <div className={styles.container}>
+          
           {messages.map((item, id) => (
-            <ul className="list-group" key={id}>
-              <li className="list-group-item d-flex justify-content-between align-items-center">
-                Id: {item.id}
-                <small className="text-muted">Date: {item.date}</small>
+            <ul className={styles.listGroup} key={id}>
+              <li className={styles.listItem}>
+                <span>Id: {item.id}</span>
+                <span>Date: {item.date}</span>
               </li>
-              <li className="list-group-item">Nom: {item.name}</li>
-              <li className="list-group-item">Email: {item.email}</li>
-              <li className="list-group-item">
+              <li className={styles.listItem}>Nom: {item.name}</li>
+              <li className={styles.listItem}>Email: {item.email}</li>
+              <li className={styles.listItem}>
                 <p>Message: {item.message}</p>
                 <button
                   type="button"
-                  className="btn btn-dark"
+                  className={styles.btnOutline}
                   onClick={() => deleteMessage(item.id)}
                 >
-                  Effacer le messsage
+                  Effacer
                 </button>
               </li>
             </ul>
