@@ -90,21 +90,6 @@ const project = [
     link: "",
   },
   {
-    name: "Kasa",
-    style: "smallCard",
-    image_1: "kasa_home.png",
-    image_2: "project_kasa.png",
-    image_3: "kasa_mobile.png",
-    tag_1: "React.js",
-    tag_2: "React-router",
-    tag_3: "Axios",
-    presentation:
-      "Développement front-end d'une application de location de logements réalisée à partir des maquettes Figma.",
-    description:
-      "Le projet a été réalisé en composants avec React.js et les routes avec React Router.",
-    link: "https://thucnhiwiedenhofer-11-02062022.vercel.app/",
-  },
-  {
     name: "Mon CMS",
     style: "bigCard",
     image_1: "gallery_cms.png",
@@ -119,6 +104,22 @@ const project = [
       "Le projet a été réalisé avec Wordpress et Elementor et peut donc être modifiable facilement par son propriétaire.",
     link: "https://thuc-nhi-wiedenhofer.students-laplateforme.io/moncms/",
   },
+  {
+    name: "Kasa",
+    style: "smallCard",
+    image_1: "kasa_home.png",
+    image_2: "project_kasa.png",
+    image_3: "kasa_mobile.png",
+    tag_1: "React.js",
+    tag_2: "React-router",
+    tag_3: "Axios",
+    presentation:
+      "Développement front-end d'une application de location de logements réalisée à partir des maquettes Figma.",
+    description:
+      "Le projet a été réalisé en composants avec React.js et les routes avec React Router.",
+    link: "https://thucnhiwiedenhofer-11-02062022.vercel.app/",
+  },
+  
 ];
 
 export { project };

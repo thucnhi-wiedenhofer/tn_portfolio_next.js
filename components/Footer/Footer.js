@@ -22,7 +22,7 @@ export default function Footer() {
               </Link>
             </li>
             <li className={styles.navItem}>
-              <Link className={styles.btn} href="/projets">
+              <Link className={styles.btn} href="/projects">
                 Projets
               </Link>
             </li>
