@@ -23,6 +23,7 @@ model Projects {
   presentation String @db.Text
   description String @db.Text
   link String
+  url String
 }
 
 model ContactPortfolio{

@@ -2,7 +2,6 @@ import React from "react";
 import styles from "./../GalleryCard/GalleryCard.module.css";
 import Image from "next/image";
 import Link from "next/link";
-import project_1 from "./../../public/images/gallery_bopha.png";
 
 export default function GalleryCard({ project }) {
   return (
@@ -21,7 +20,7 @@ export default function GalleryCard({ project }) {
               <li>
                 <Link
                   className={styles.btnOutline}
-                  href={`/projets/projet/${project.id}`}
+                  href={`/projects/${project.url}`}
                 >
                   Voir
                 </Link>

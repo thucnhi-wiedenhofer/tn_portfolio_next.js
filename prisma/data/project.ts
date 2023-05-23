@@ -13,6 +13,7 @@ const project = [
     description:
       "Ce site a été développé avec le framework React, Next.js pour sa simplicité de déploiement et l'optimisation du SEO.",
     link: "https://bopha-website.vercel.app/",
+    url: "bopha",
   },
   {
     name: "Boutique",
@@ -28,6 +29,7 @@ const project = [
     description:
       "Le site a été développé en PHP avec une architecture MVC pour manipuler les données avec un CRUD.",
     link: "https://thuc-nhi-wiedenhofer.students-laplateforme.io/boutique/",
+    url: "panama",
   },
   {
     name: "Fisheye",
@@ -43,6 +45,7 @@ const project = [
     description:
       "Ce site a été développé en Javascript et il est accessible pour les personnes malvoyantes ou non voyant car il peut être lu par un lecteur d'écran: il propose une alternative textuelle, une navigation clavier et la tabulation.",
     link: "https://thucnhi-wiedenhofer.github.io/ThucNhiWiedenhofer_6_10022022/",
+    url: "fisheye",
   },
   {
     name: "OhMyFood",
@@ -58,6 +61,7 @@ const project = [
     description:
       "La réalisation du front end de ce site priorise la version mobile. Il a été réalisé en Sass avec des animations CSS.",
     link: "https://thucnhi-wiedenhofer.github.io/ThucNhiWiedenhofer_3_30122021/",
+    url: "myfood",
   },
   {
     name: "Argent Bank",
@@ -73,6 +77,7 @@ const project = [
     description:
       "Le projet consiste à intéragir avec une API pour récupérer les données des utilisateurs et de la modéliser. Le développement a été réalisé avec React et Redux comme gestionnaire d'état.",
     link: "",
+    url: "apibank",
   },
   {
     name: "Learn@Home",
@@ -88,6 +93,7 @@ const project = [
     description:
       "Modélisation d'une solution technique et création des maquettes avec Figma pour un client.",
     link: "",
+    url: "learn@home",
   },
   {
     name: "Mon CMS",
@@ -103,6 +109,7 @@ const project = [
     description:
       "Le projet a été réalisé avec Wordpress et Elementor et peut donc être modifiable facilement par son propriétaire.",
     link: "https://thuc-nhi-wiedenhofer.students-laplateforme.io/moncms/",
+    url: "moncms",
   },
   {
     name: "Kasa",
@@ -118,8 +125,8 @@ const project = [
     description:
       "Le projet a été réalisé en composants avec React.js et les routes avec React Router.",
     link: "https://thucnhiwiedenhofer-11-02062022.vercel.app/",
+    url: "kasa",
   },
-  
 ];
 
 export { project };
