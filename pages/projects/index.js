@@ -9,23 +9,21 @@ export default function index({ projects }) {
       <section className={styles.banner} data-aos="fade-right">
         <h1 className={styles.title}>Projets</h1>
       </section>
-      <main id="projects">
-        <section className={styles.container}>
-          <div className={styles.row}>
+
+      <section id="projects" className={styles.container}>
+        <div className={styles.row}>
           {projects.map((project, index) => (
-            <GalleryCard key={index} project={project}/>
+            <GalleryCard key={index} project={project} />
           ))}
-            
-          </div>
-        </section>
-      </main>
+        </div>
+      </section>
     </>
   );
 }
 
 export const getServerSideProps = async () => {
   const prisma = new PrismaClient();
-  const projects= await prisma.projects.findMany();
+  const projects = await prisma.projects.findMany();
   return {
     props: {
       projects,

@@ -61,6 +61,7 @@ export default function ContactForm() {
             type="text"
             className={styles.input}
             name="name"
+            id="name"
             required="required"
           />
         </div>
@@ -75,6 +76,7 @@ export default function ContactForm() {
             type="email"
             className={styles.input}
             name="email"
+            id="email"
             required="required"
           />
         </div>
@@ -90,6 +92,7 @@ export default function ContactForm() {
           }}
           className={styles.input}
           name="message"
+          id="message"
           rows="3"
           required="required"
         ></textarea>
@@ -100,6 +103,7 @@ export default function ContactForm() {
           className={styles.checkbox}
           type="checkbox"
           value={checked}
+          id="rgpdCheckbox"
           onChange={(e) => {
             setChecked(e.target.value);
           }}
@@ -111,7 +115,7 @@ export default function ContactForm() {
       </div>
 
       <button type="submit" className={styles.btnSlide}>
-       <span>Envoyer</span> 
+        <span>Envoyer</span>
       </button>
     </form>
   );

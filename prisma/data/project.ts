@@ -9,7 +9,7 @@ const project = [
     tag_2: "Next.js",
     tag_3: "Prisma",
     presentation:
-      "Bopha est un site vitrine responsive pour une décoratrice florale. Il présente sa personne ainsi que ses services, comprend une galerie de photos et un formulaire de contact.",
+      "Le projet Bopha est un site vitrine responsive pour une décoratrice florale. Il présente sa personne ainsi que ses services, comprend une galerie de photos et un formulaire de contact.",
     description:
       "Ce site a été développé avec le framework React, Next.js pour sa simplicité de déploiement et l'optimisation du SEO.",
     link: "https://bopha-website.vercel.app/",
@@ -25,7 +25,7 @@ const project = [
     tag_2: "CRUD",
     tag_3: "MVC",
     presentation:
-      "Boutique est un site e-commerce de chapeaux panaméens. Il comporte une présentation de l'entreprise, des produits par catégories et sous catégories ainsi qu'un back office pour que son propriétaire puisse gérer facilement les modifications.",
+      "Le projet Boutique est un site e-commerce de chapeaux panaméens. Il comporte une présentation de l'entreprise, des produits par catégories et sous catégories ainsi qu'un back office pour que son propriétaire puisse gérer facilement les modifications.",
     description:
       "Le site a été développé en PHP avec une architecture MVC pour manipuler les données avec un CRUD.",
     link: "https://thuc-nhi-wiedenhofer.students-laplateforme.io/boutique/",
@@ -41,9 +41,9 @@ const project = [
     tag_2: "Design patterns",
     tag_3: "Accessibilité",
     presentation:
-      "Création d'un site accessible pour une plateforme de photographes à partir de maquettes Figma.",
+      "Le projet Fisheye consiste en la création d'un site accessible pour une plateforme de photographes à partir de maquettes Figma.",
     description:
-      "Ce site a été développé en Javascript et il est accessible pour les personnes malvoyantes ou non voyant car il peut être lu par un lecteur d'écran: il propose une alternative textuelle, une navigation clavier et la tabulation.",
+      "Ce site a été développé en Javascript et il est accessible pour les personnes malvoyantes ou non voyantes car il peut être lu par un lecteur d'écran: il propose une alternative textuelle, une navigation clavier et la tabulation.",
     link: "https://thucnhi-wiedenhofer.github.io/ThucNhiWiedenhofer_6_10022022/",
     url: "fisheye",
   },
@@ -57,9 +57,9 @@ const project = [
     tag_2: "animation CSS",
     tag_3: "mobile first",
     presentation:
-      "OhMyFood est une application permettant de reserver des restaurants et choisir un menu.",
+      "OhMyFood est une application permettant de réserver des restaurants et de choisir un menu.",
     description:
-      "La réalisation du front end de ce site priorise la version mobile. Il a été réalisé en Sass avec des animations CSS.",
+      "La réalisation du front-end de ce site priorise la version mobile. Il a été réalisé en Sass avec des animations CSS.",
     link: "https://thucnhi-wiedenhofer.github.io/ThucNhiWiedenhofer_3_30122021/",
     url: "myfood",
   },
@@ -73,7 +73,7 @@ const project = [
     tag_2: "Redux",
     tag_3: "API REST",
     presentation:
-      "Développement front-end d'une application bancaire permettant au utilisateurs d'avoir accès à leurs comptes et modifier leurs profils.",
+      "Développement front-end de l'application bancaire Argent Bank, permettant aux utilisateurs d'avoir accès à leurs comptes et de modifier leurs profils.",
     description:
       "Le projet consiste à intéragir avec une API pour récupérer les données des utilisateurs et de la modéliser. Le développement a été réalisé avec React et Redux comme gestionnaire d'état.",
     link: "",
@@ -89,9 +89,9 @@ const project = [
     tag_2: "Figma",
     tag_3: "Prototypes",
     presentation:
-      "Le projet consistait à identifier les besoins d'une application de soutien scolaire à partir d'un cahier des charges.",
+      "Le projet Learn@home consiste à identifier les besoins d'une application de soutien scolaire à partir d'un cahier des charges.",
     description:
-      "Modélisation d'une solution technique et création des maquettes avec Figma pour un client.",
+      "Modélisation d'une solution technique et de la création de maquettes avec Figma pour un client.",
     link: "",
     url: "learn@home",
   },
@@ -105,9 +105,9 @@ const project = [
     tag_2: "",
     tag_3: "",
     presentation:
-      "Création d'un site web responsive pour une agence immobilière. Il comporte une présentation de l'entreprise, des produits par catégories et sous catégories.",
+      "Le projet Mon CMS consiste en la création du site web responsive Luxury Homes pour une agence immobilière. Il comporte une présentation de l'entreprise, des produits par catégories et sous catégories.",
     description:
-      "Le projet a été réalisé avec Wordpress et Elementor et peut donc être modifiable facilement par son propriétaire.",
+      "Le site a été réalisé avec Wordpress et Elementor, il peut donc être modifié facilement par son propriétaire.",
     link: "https://thuc-nhi-wiedenhofer.students-laplateforme.io/moncms/",
     url: "moncms",
   },
@@ -121,9 +121,8 @@ const project = [
     tag_2: "React-router",
     tag_3: "Axios",
     presentation:
-      "Développement front-end d'une application de location de logements réalisée à partir des maquettes Figma.",
-    description:
-      "Le projet a été réalisé en composants avec React.js et les routes avec React Router.",
+      "Développement front-end de l'application de location de logements, Kasa, réalisée à partir de maquettes Figma.",
+    description: "Le projet a été réalisé avec React.js et React Router.",
     link: "https://thucnhiwiedenhofer-11-02062022.vercel.app/",
     url: "kasa",
   },

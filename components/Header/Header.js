@@ -5,8 +5,6 @@ import Logo from "./../../public/images/logo_1.png";
 import styles from "./Header.module.css";
 
 export default function Header() {
-  
-
   return (
     <header className={styles.header}>
       <nav className={styles.navbar}>

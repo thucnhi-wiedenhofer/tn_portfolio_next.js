@@ -5,13 +5,12 @@ import Slider from "@/components/Slider/Slider";
 import { PrismaClient } from "@prisma/client";
 
 export default function Url({ project }) {
-
   return (
     <>
-      <main className={styles.container} data-aos="fade-down">
+      <section className={styles.container} data-aos="fade-down">
         <h1 className={styles.title}>{project[0].name}</h1>
         <Slider project={project[0]} />
-        <section className={styles.content}>
+        <div className={styles.content}>
           <div className={styles.tag}>
             <span className={styles.badge}>{project[0].tag_1}</span>
             <span className={styles.badge}>{project[0].tag_2}</span>
@@ -33,8 +32,8 @@ export default function Url({ project }) {
               </Link>
             </li>
           </ul>
-        </section>
-      </main>
+        </div>
+      </section>
     </>
   );
 }

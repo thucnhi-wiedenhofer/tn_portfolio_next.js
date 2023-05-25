@@ -13,21 +13,16 @@ export default function GalleryCard({ project }) {
           width="1920"
           height="1080"
         />
-        <div className="overlay">
-          <div className={styles.description}>
-            <h2 className={styles.title}>{project.name}</h2>
-            <ul className={styles.action}>
-              <li>
-                <Link
-                  className={styles.btnOutline}
-                  href={`/projects/${project.url}`}
-                >
-                  Voir
-                </Link>
-              </li>
-            </ul>
+        <Link href={`/projects/${project.url}`}>
+          <div className="overlay">
+            <div className={styles.description}>
+              <h2 className={styles.title}>{project.name}</h2>
+              <ul className={styles.btnOutline}>
+                <li>Voir</li>
+              </ul>
+            </div>
           </div>
-        </div>
+        </Link>
       </article>
     </>
   );

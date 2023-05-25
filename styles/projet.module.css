@@ -1,5 +1,5 @@
 .container {
-  margin: 15% 0;
+  margin: 10% 3%;
   text-align: center;
 }
 
@@ -9,7 +9,7 @@
   font-weight: 800;
   line-height: 1;
   letter-spacing: -1px;
-  margin: 5%;
+  margin: 3%;
 }
 
 .tag {

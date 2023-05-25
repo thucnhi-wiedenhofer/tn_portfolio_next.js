@@ -8,23 +8,21 @@ export default function Contact() {
     <>
       <section id="banner" data-aos="fade-right">
         <div className={styles.container}>
-        <h1 className={styles.title}>Contactez-moi</h1>
+          <h1 className={styles.title}>Contactez-moi</h1>
           <p className={styles.intro}>
             Vous avez un projet ? <br /> Je suis à votre disposition pour toutes
             demandes de devis ou de renseignements complémentaires sur mes
             services. <br />
-            Je serai ravie de pouvoir collaborer avec vous.
+            Je serais ravie de pouvoir collaborer avec vous.
           </p>
         </div>
       </section>
-      <main id="contact">
-        <section className={styles.container} data-aos="fade-down">
-          <div className={styles.contact}>
-            <ContactForm />
-            <Aside />
-          </div>
-        </section>
-      </main>
+      <section id="contact" className={styles.container} data-aos="fade-down">
+        <div className={styles.contact}>
+          <ContactForm />
+          <Aside />
+        </div>
+      </section>
     </>
   );
 }

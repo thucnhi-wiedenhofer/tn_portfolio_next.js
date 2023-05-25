@@ -10,7 +10,7 @@ import project_2 from "./../public/images/kasa_app.png";
 export default function Home() {
   return (
     <>
-      <section id="banner"  data-aos="fade-right">
+      <section id="banner" data-aos="fade-right">
         <div className={styles.banner}>
           <div className={styles.title}>
             <h1>
@@ -25,7 +25,7 @@ export default function Home() {
             </p>
             <ul>
               <li className={styles.navItem}>
-                <Link className={styles.btnSlide} href="/projets">
+                <Link className={styles.btnSlide} href="/projects">
                   <span>Voir mon portfolio</span>
                 </Link>
               </li>
@@ -33,69 +33,66 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <main id="services">
-        <section className={styles.container} >
-          <article className={styles.services}>
-            <div className={styles.imgFluid} data-aos="fade-up">
-              <Image
-                src={project_1}
-                alt="site web responsives"
-                width="1920"
-                height="1080"
-              />
-            </div>
+      <section id="services" className={styles.container}>
+        <article className={styles.services}>
+          <div className={styles.imgFluid} data-aos="fade-up">
+            <Image
+              src={project_1}
+              alt="site web responsives"
+              width="1920"
+              height="1080"
+            />
+          </div>
 
-            <div className={styles.description} data-aos="fade-up">
-              <div className={styles.header}>
-                <h2>Création de sites web responsives</h2>
-              </div>
-              <p>
-                Je crée des sites web dynamiques compatibles à tous support: PC,
-                tablette et mobile.
-                <br />
-                Avec une intégration repectueuse des standard du web pour un
-                référencement optimal.
-              </p>
-              <ul className={styles.action}>
-                <li>
-                  <Link className={styles.btnOutline} href="/projets">
-                    En savoir plus
-                  </Link>
-                </li>
-              </ul>
+          <div className={styles.description}>
+            <div className={styles.header}>
+              <h2>Création de sites web responsives</h2>
             </div>
-          </article>
-          <article className={styles.services}>
-            <div className={styles.imgFluid} data-aos="fade-up">
-              <Image
-                src={project_2}
-                alt="mobile app"
-                width="1920"
-                height="1080"
-              />
-            </div>
+            <p>
+              Je crée des sites web dynamiques compatibles à tous supports: PC,
+              tablette et mobile.
+              <br />
+              Avec une intégration repectueuse des standards du web pour un
+              référencement optimal.
+            </p>
+            <ul className={styles.action}>
+              <li>
+                <Link className={styles.btnOutline} href="/projects">
+                  En savoir plus
+                </Link>
+              </li>
+            </ul>
+          </div>
+        </article>
+        <article className={styles.services}>
+          <div className={styles.imgFluid} data-aos="fade-up">
+            <Image
+              src={project_2}
+              alt="mobile app"
+              width="1920"
+              height="1080"
+            />
+          </div>
 
-            <div className={styles.description} data-aos="fade-up">
-              <div className={styles.header}>
-                <h2>Développement d'application spécialité front-end</h2>
-              </div>
-              <p>
-                Je conçois et modélise des applications avec Javascript et
-                React.
-                <br /> Cela comprend la conception des wireframes, l'intégration
-                de maquette, les tests et les débuggages.
-              </p>
-              <ul className={styles.action}>
-                <li>
-                  <Link className={styles.btnOutline} href="/projets">
-                    En savoir plus
-                  </Link>
-                </li>
-              </ul>
+          <div className={styles.description}>
+            <div className={styles.header}>
+              <h2>Développement d'application spécialité front-end</h2>
             </div>
-          </article>
-        </section>
-      </main>
+            <p>
+              Je conçois et modélise des applications avec Javascript et React.
+              <br /> Cela comprend la conception de wireframes, l'intégration de
+              maquettes, ainsi que les tests et les débuggages.
+            </p>
+            <ul className={styles.action}>
+              <li>
+                <Link className={styles.btnOutline} href="/projects">
+                  En savoir plus
+                </Link>
+              </li>
+            </ul>
+          </div>
+        </article>
+      </section>
     </>
   );
 }
