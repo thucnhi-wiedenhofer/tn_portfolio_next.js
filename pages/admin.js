@@ -24,8 +24,7 @@ export default function Admin() {
   };
 
   return (
-    <>
-      <section id="admin">
+    <section id="admin">
       <div className={styles.container}>
         <form onSubmit={handleSubmit} className={styles.form}>
           <h2 className={styles.title}>Connexion Administrateur</h2>
@@ -44,11 +43,10 @@ export default function Admin() {
             />
           </div>
           <button type="submit" className={styles.btnOutline}>
-           Se Connecter
+            Se Connecter
           </button>
         </form>
-        </div>
-      </section>
-    </>
+      </div>
+    </section>
   );
 }
