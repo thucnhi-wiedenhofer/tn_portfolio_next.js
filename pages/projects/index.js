@@ -1,7 +1,7 @@
+import { PrismaClient } from "@prisma/client";
 import React from "react";
 import GalleryCard from "@/components/GalleryCard/GalleryCard";
 import styles from "@/styles/projets.module.css";
-import { PrismaClient } from "@prisma/client";
 
 export default function index({ projects }) {
   return (

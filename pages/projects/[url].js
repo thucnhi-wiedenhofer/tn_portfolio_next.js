@@ -1,8 +1,8 @@
+import { PrismaClient } from "@prisma/client";
 import React from "react";
 import Link from "next/link";
 import styles from "@/styles/projet.module.css";
 import Slider from "@/components/Slider/Slider";
-import { PrismaClient } from "@prisma/client";
 
 export default function Url({ project }) {
   return (
