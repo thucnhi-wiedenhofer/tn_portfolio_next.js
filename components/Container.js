@@ -21,7 +21,7 @@ export default function Container({ children }) {
           content="Thuc-Nhi Wiedenhofer - Développeur d'application web spécialité Front End Javascript React"
         />
         <meta property="og:type" content=" web developer website" />
-        <meta property="og:url" content="" />
+        <meta property="og:url" content="https://tn-portfolio-next-js.vercel.app/" />
         <meta property="og:image" content="" />
         <meta
           property="og:description"
