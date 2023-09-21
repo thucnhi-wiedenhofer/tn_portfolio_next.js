@@ -14,7 +14,7 @@ export default function Container({ children }) {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta
           name="description"
-          content="Passionnée par le développement web, je crée des sites web et des applications web. "
+          content="Passionnée par le développement web, je crée des sites et des applications web responsives et dynamiques. "
         />
         <meta
           property="og:title"
@@ -22,7 +22,7 @@ export default function Container({ children }) {
         />
         <meta property="og:type" content=" web developer website" />
         <meta property="og:url" content="https://tn-portfolio-next-js.vercel.app/" />
-        <meta property="og:image" content="" />
+        <meta property="og:image" content="https://www.linkedin.com/in/thuc-nhi-wiedenhofer/overlay/background-image/" />
         <meta
           property="og:description"
           content=" Passionnée par le développement web, j'aimerais travailler sur votre projet de création de site web ou d'application web."

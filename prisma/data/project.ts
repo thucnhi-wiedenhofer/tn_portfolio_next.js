@@ -76,7 +76,7 @@ const project = [
       "Développement front-end de l'application bancaire Argent Bank, permettant aux utilisateurs d'avoir accès à leurs comptes et de modifier leurs profils.",
     description:
       "Le projet consiste à intéragir avec une API pour récupérer les données des utilisateurs et de la modéliser. Le développement a été réalisé avec React et Redux comme gestionnaire d'état.",
-    link: "",
+    link: "https://github.com/thucnhi-wiedenhofer/thucnhi_wiedenhofer_13_08072022",
     url: "apibank",
   },
   {
@@ -92,7 +92,7 @@ const project = [
       "Le projet Learn@home consiste à identifier les besoins d'une application de soutien scolaire à partir d'un cahier des charges.",
     description:
       "Modélisation d'une solution technique et de la création de maquettes avec Figma pour un client.",
-    link: "",
+    link: "https://www.figma.com/file/1Rm7Cz2rjvX6i9loTgvWcX/maquette-learn-at-home?type=design&node-id=0-1&mode=design&t=HeyE4weWYB8IxcXv-0",
     url: "learn@home",
   },
   {
